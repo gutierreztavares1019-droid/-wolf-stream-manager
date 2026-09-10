@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07090d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Wolf Stream">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/wolf-stream-logo.jpg">
+<title>WOLF STREAM Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<header class="topbar">
+  <div class="brand">
+    <img src="assets/wolf-stream-logo.jpg" alt="WOLF STREAM">
+    <div><b>WOLF STREAM</b><small>MANAGER</small></div>
+  </div>
+  <button class="icon" id="notifyBtn" title="Alertas">🔔</button>
+</header>
+
+<main id="view"></main>
+
+<nav class="bottom">
+  <button data-page="inicio" class="active">⌂<span>Inicio</span></button>
+  <button data-page="cuentas">▣<span>Cuentas</span></button>
+  <button data-page="clientes">♙<span>Clientes</span></button>
+  <button data-page="renovaciones">◷<span>Renovaciones</span></button>
+  <button data-page="mas">☷<span>Más</span></button>
+</nav>
+
+<div class="modal hidden" id="modal">
+  <div class="modal-card">
+    <div class="modal-head"><h3 id="modalTitle">Nuevo</h3><button class="close" id="closeModal">×</button></div>
+    <form id="entityForm"></form>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

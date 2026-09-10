@@ -1,0 +1,10 @@
+{
+  "name":"WOLF STREAM Manager",
+  "short_name":"Wolf Stream",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#05070a",
+  "theme_color":"#07090d",
+  "lang":"es-MX",
+  "icons":[{"src":"assets/wolf-stream-logo.jpg","sizes":"512x512","type":"image/jpeg"}]
+}
